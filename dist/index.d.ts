@@ -1,5 +1,5 @@
 /**
- * @opencollabhut/nam-wasm
+ * @collabhut/nam-wasm
  *
  * Neural Amp Modeler WASM with multi-instance support.
  * Designed for integration with Web Audio AudioWorklets.
