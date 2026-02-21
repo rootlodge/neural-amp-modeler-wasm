@@ -181,12 +181,19 @@ cd emsdk
 ./emsdk activate 3.1.41
 source ./emsdk_env.sh
 ```
+IF WINDOWS (replace ~ with your username, or the appropriate path)
+After the notepad opens, run the below code according to your emsdk path
+```powershell
+notepad $profile
+cd C:\Users\~\emsdk
+.\emsdk_env.ps1
+```
 
 ### Build
 
 ```bash
 # Clone with submodules
-git clone --recursive https://github.com/andremichelle/nam-wasm.git
+git clone --recursive https://github.com/rootlodge/nam-wasm.git
 cd nam-wasm
 
 # Or init submodules if already cloned
