@@ -2,6 +2,9 @@
   "name": "@collabhut/nam-wasm",
   "version": "1.0.0",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Neural Amp Modeler WASM with multi-instance support for Web Audio integration",
   "author": "CollabHut",
   "type": "module",
