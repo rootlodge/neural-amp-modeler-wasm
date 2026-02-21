@@ -1,9 +1,9 @@
 {
-  "name": "@opendaw/nam-wasm",
+  "name": "@collabhut/nam-wasm",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Neural Amp Modeler WASM with multi-instance support for Web Audio integration",
-  "author": "Andre Michelle",
+  "author": "CollabHut",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andremichelle/nam-wasm"
+    "url": "https://github.com/rootlodge/neural-amp-modeler-wasm.git"
   },
   "keywords": [
     "neural-amp-modeler",
