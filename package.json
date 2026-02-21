@@ -19,10 +19,10 @@
     "./nam.js": "./dist/nam.js"
   },
   "scripts": {
-    "build:wasm": "./wasm/build-nam.bash",
-    "build:ts": "tsc && cp src/nam.d.ts dist/",
+    "build:wasm": "node scripts/build-wasm.js",
+    "build:ts": "tsc && node scripts/copy-dts.js",
     "build": "npm run build:wasm && npm run build:ts",
-    "clean": "rm -rf dist",
+    "clean": "node scripts/clean-dist.js",
     "prepublishOnly": "npm run build"
   },
   "repository": {
